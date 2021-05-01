@@ -1,0 +1,168 @@
+
+html {
+    height: 100vh;
+    scroll-behavior: smooth;
+    color: #000 !important;
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #000 !important;
+    color: #ffffff;
+    text-align:center;
+}
+
+header{
+    background-image: url('../images/blurry_diamonds.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 1px solid #ffffff;
+    padding-top: 20px;
+
+}
+
+/* index.html */
+#index-main {
+    padding-top: 20px;
+}
+
+#index-main img {
+    border: 1px solid #ffffff;
+    size: inherit;
+}
+
+#index-main p, h1 {
+    text-align: left;
+}
+
+.carousel-item img {
+    max-height: 500px;
+    border: none !important;
+    /* max-width: 500px; */
+}
+
+#heins-story {
+    margin: 50px 0 50px 0;
+}
+
+#heins-store {
+    border: none !important;
+}
+
+/* services.html */
+#services{
+    color: #eee;
+    padding-top: 20px;
+}
+
+#services-main p{
+    text-align: left;
+    margin-top: 10px;
+}
+
+#services-main h3 {
+    text-align: left;
+    margin-top: 30px;
+}
+
+#services p{
+    text-align: left;
+}
+
+#services h6.section-title{
+    color: #eee;
+}
+
+#services .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #f3f3f3;
+    background-color: transparent;
+    border-color: transparent transparent #f3f3f3;
+    border-bottom: 4px solid !important;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#services .nav-tabs .nav-link {
+    border: 1px solid transparent;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+    color: #eee;
+    font-size: 20px;
+}
+
+#services img {
+    max-width: 450px;
+    max-height: 450px;
+}
+
+/* Products */
+
+#products p {
+    text-align: left;
+}
+
+ul {
+    text-align: left;
+    list-style-position: outside;
+}
+
+#heins-rose {
+    padding-bottom: 20px;
+}
+
+/* Footer */
+
+footer {
+    background-image: url('../images/blurry_diamonds.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top: 1px solid #ffffff;
+    font-size: small;
+    margin-top:auto;
+}
+
+hr {
+    border: 1px solid #ffffff;
+}
+
+
+.footer p {
+    text-align: left;
+}
+
+a {
+    color:inherit;
+}
+
+.footer-outer{
+    text-align: center;
+}
+
+.footer-text{
+    display: inline-block;
+    text-align: left;
+}
+
+#buiness-hours {
+    text-align: left;
+}
+
+.section-title {
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+.social-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 3.5rem;
+    width: 3.5rem;
+    border-radius: 100%;
+    font-size: 2rem;
+}
